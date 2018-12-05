@@ -12,7 +12,7 @@ RUN pip install --upgrade pip
 RUN pip install awscli --upgrade --user
 RUN pip install saws --user
 RUN yum -y install git
-RUn yum -y install htop
+RUN yum -y install htop
 RUN yum -y install vim
 RUN yum -y install nano
 RUN yum -y install wget && yum clean all
