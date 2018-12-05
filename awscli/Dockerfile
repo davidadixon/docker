@@ -13,6 +13,7 @@ RUN pip install awscli --upgrade --user
 RUN pip install saws --user
 RUN yum -y install git
 RUn yum -y install htop
+RUN yum -y install vim
 RUN yum -y install wget && yum clean all
 RUN wget https://github.com/barnybug/cli53/releases/download/0.8.12/cli53-linux-amd64
 RUN mv cli53-linux-amd64 /usr/local/bin/cli53
