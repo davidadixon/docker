@@ -27,7 +27,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN set -x \
     && apt-get -yqq update \
     && apt-get -yqq dist-upgrade \
-    && apt-get -yqq update \
+    && apt-get -yqq install hping3 \
     && apt-get install -yqq metasploit-framework \
     && apt-get clean 
 CMD ["bash"]
