@@ -16,6 +16,7 @@ RUN yum -y install htop
 RUN yum -y install vim
 RUN yum -y install nano
 RUN yum -y install ipython
+RUN yum -y install jq
 RUN yum -y install wget && yum clean all
 RUN rm -rf /var/cache/yum
 RUN wget https://github.com/barnybug/cli53/releases/download/0.8.12/cli53-linux-amd64
