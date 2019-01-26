@@ -17,8 +17,8 @@ RUN yum -y install epel-release && \
     yum -y install nano && \
     yum -y install ipython && \
     yum -y install jq && \
-    yum -y install wget \
-    && yum clean all && \
+    yum -y install wget && \
+    yum clean all && \
     rm -rf /var/cache/yum && \
     wget https://github.com/barnybug/cli53/releases/download/0.8.12/cli53-linux-amd64 && \
     mv cli53-linux-amd64 /usr/local/bin/cli53 && \
