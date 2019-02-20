@@ -12,6 +12,7 @@ RUN yum -y install epel-release && \
     pip install awscli --upgrade --user && \
     pip install saws --user && \
     pip install boto3 && \
+    pip install tqdm && \
     yum -y install git && \
     yum -y install htop && \
     yum -y install vim && \
