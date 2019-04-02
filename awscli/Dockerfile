@@ -26,7 +26,7 @@ RUN yum -y install epel-release && \
     mv cli53-linux-amd64 /usr/local/bin/cli53 && \
     chmod +x /usr/local/bin/cli53 && \
     wget https://raw.githubusercontent.com/davidadixon/bash_profile/master/bash_profile && \
-    mv ~/.bash_profile ~/.bash_profile_bkup && \
-    mv bash_profile ~/.bash_profile && \
+    mv ~/.bash_profile ~/.bash_profile_bkup -f && \
+    mv bash_profile ~/.bash_profile -f && \
     source ~/.bash_profile
 # ENTRYPOINT ["/bin/echo", "Hello Alex"]
