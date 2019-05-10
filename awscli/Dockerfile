@@ -30,4 +30,3 @@ RUN yum -y install epel-release && \
     mv bash_profile ~/.bashrc -f && \
     source ~/.bashrc && \
     . ~/.bashrc
-# ENTRYPOINT ["/bin/echo", "Hello Alex"]
